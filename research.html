@@ -61,6 +61,26 @@
       </article>
     </section>
 
+    <!-- Motor control / flight background (images + copy carried from prior work) -->
+    <style>
+    .flight-figs{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2rem}
+    .flight-figs figure{margin:0}
+    .flight-figs img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:1rem}
+    .flight-figs figcaption{margin-top:.6rem;font-size:.85rem;color:var(--ink-soft);line-height:1.45}
+    @media(max-width:800px){.flight-figs{grid-template-columns:1fr}}
+    </style>
+    <section class="section-shell flight-section reveal">
+      <div class="split-heading">
+        <h2>Motor control, from crawling to flight.</h2>
+        <p>The same question runs through very different behaviors: how does a nervous system produce one coordinated movement instead of another? In my postdoctoral work I took it into flight. A fly steers with only about a dozen pairs of wing muscles, so I ran a large optogenetic screen, activating candidate neurons with light in tethered, flying flies, to find the cells that adjust wing motion, then traced them by light and electron microscopy. It is part of why the lab thinks about motor control across scales, from a crawling larva to a fly in the air.</p>
+      </div>
+      <div class="flight-figs">
+        <figure><img src="assets/img/flight-rig.jpg" alt="A tethered fly in a circular LED flight arena, imaged from below by optics beneath the display."><figcaption>A tethered fly in an LED flight arena, imaged from below.</figcaption></figure>
+        <figure><img src="assets/img/tethered-flight.jpg" alt="A tethered fly seen from behind, with magenta lines marking the left and right wing-stroke envelopes."><figcaption>Wing-stroke envelopes (magenta) tracked during tethered flight.</figcaption></figure>
+        <figure><img src="assets/img/em-connectome.jpg" alt="A grayscale electron-microscopy section of neural tissue used to trace neurons."><figcaption>Electron microscopy for connectomic mapping of the circuit.</figcaption></figure>
+      </div>
+    </section>
+
     <section class="section-shell publication-section">
       <div class="section-heading reveal"><p class="section-kicker">Publications</p><h2>Selected publications.</h2></div>
       <ol class="publication-list">
